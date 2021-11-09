@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vaja02</string>
+    <string name="Vnos">Input</string>
+    <string name="about" translatable="false">About</string>
+    <string name="naslov">Janez\'s farm</string>
+    <string name="ime_hleva">Barn\'s name:</string>
+    <string name="lokacija_hleva">Barn\'s location:</string>
+    <string name="zasedenost_hleva">Barn\'s capacity:</string>
+    <string-array name="animals">
+        <item>Pig</item>
+        <item>Cow</item>
+    </string-array>
+    <string name="id" translatable="false">ID</string>
+    <string name="ime">Name</string>
+    <string name="teza">Weight</string>
+    <string name="datum">Date</string>
+
+    <string name="dodaj">Add</string>
+    <string name="info" translatable="false">Info</string>
+    <string name="izhod">Exit</string>
+
+    <string name="_ime">Name:</string>
+    <string name="opis">Desc:</string>
+    <string name="verzija">Version:</string>
+    <string name="avtor">Author:</string>
+    <string name="opis_value">The application enables the generation of stables and the addition of different animals to barns, in the future it will be possible to sort different breeds of different animal species and analyze data</string>
+    <string name="verzija_value" translatable="false">1.4.4</string>
+    <string name="avtor_value" translatable="false">Amadej Gradic</string>
+
+
+</resources>

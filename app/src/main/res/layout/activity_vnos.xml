@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VnosActivity">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dateTextInput"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/btnSize"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        tools:ignore="SpeakableTextPresentCheck" />
+    tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="42dp"
+        android:layout_height="17dp"
+        android:text="@string/ime"
+        app:layout_constraintBaseline_toBaselineOf="@+id/nameTextInput"
+        app:layout_constraintEnd_toStartOf="@+id/nameTextInput"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="43dp"
+        android:layout_height="18dp"
+        android:text="@string/datum"
+        app:layout_constraintBaseline_toBaselineOf="@+id/dateTextInput"
+        app:layout_constraintEnd_toStartOf="@+id/dateTextInput"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/autoCompleteType"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="254dp"
+        android:layout_height="55dp"
+        android:hint="Type of animal"
+        app:layout_constraintBottom_toTopOf="@+id/IDtextInput"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewWeight"
+        android:layout_width="46dp"
+        android:layout_height="19dp"
+
+        android:text="@string/teza"
+        app:layout_constraintBaseline_toBaselineOf="@+id/weightTextInput"
+        app:layout_constraintEnd_toStartOf="@+id/weightTextInput"
+        app:layout_constraintHorizontal_bias="1
+"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/weightTextInput"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/dateTextInput"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        tools:ignore="SpeakableTextPresentCheck" /><![CDATA[
+    tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="26dp"
+        android:layout_height="17dp"
+
+        android:text="@string/id"
+        app:layout_constraintBaseline_toBaselineOf="@+id/IDtextInput"
+        app:layout_constraintEnd_toStartOf="@+id/IDtextInput"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/IDtextInput"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/nameTextInput"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        tools:ignore="SpeakableTextPresentCheck" />
+    tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nameTextInput"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/weightTextInput"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        tools:ignore="SpeakableTextPresentCheck" /><![CDATA[
+    tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+    ]]>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdd"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:onClick="btnAdd"
+        android:padding="0dp"
+        android:text="@string/dodaj"
+        android:textSize="8dp"
+        app:cornerRadius="15dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/btnSize"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExit"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:onClick="btnExit"
+        android:padding="0dp"
+        android:text="@string/izhod"
+        android:textSize="8dp"
+        app:cornerRadius="15dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnSize"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSize"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:padding="0dp"
+        android:text="@string/info"
+        android:textSize="8dp"
+        app:cornerRadius="15dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/btnExit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnAdd"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.11" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="43dp"
+        android:layout_height="59dp"
+        app:layout_constraintBottom_toTopOf="@+id/autoCompleteType"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/farmer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

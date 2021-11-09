@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vaja02</string>
+    <string name="Vnos">Vnos</string>
+    <string name="naslov">Janezova farma</string>
+    <string name="ime_hleva">Ime hleva:</string>
+    <string name="lokacija_hleva">Lokacija hleva:</string>
+    <string name="zasedenost_hleva">Kapaciteta hleva:</string>
+    <string name="ime">Ime</string>
+    <string name="teza">Teza</string>
+    <string name="datum">Datum</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="izhod">Izhod</string>
+    <string name="_ime">Ime:</string>
+    <string name="opis">Opis:</string>
+    <string name="verzija">Verzija:</string>
+    <string name="avtor">Avtor:</string>
+    <string name="opis_value">" Aplikacija omogoca generiranje hlevov ter dodajanje razlicnih zivali v hleve, v prihodnosti bo mogoce sortiranje razlicnih pasem razicnih zivalskih vrst in analiza podatkov"</string>
+</resources>

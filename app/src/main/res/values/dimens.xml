@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_text_size">24dp</dimen>
+    <dimen name="button_width">100dp</dimen>
+    <dimen name="button_height">42dp</dimen>
+    <dimen name="button_text_size">8dp</dimen>
+
+
+    <dimen name="button_width2">80dp</dimen>
+    <dimen name="button_height2">20dp</dimen>
+    <dimen name="header_text_size2">50dp</dimen>
+
+    <dimen name="button_width3">50dp</dimen>
+    <dimen name="button_height3">10dp</dimen>
+
+</resources>
